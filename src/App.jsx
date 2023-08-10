@@ -55,14 +55,9 @@ const App = () => {
           />
         </div>
       </header>
-      <Parallax blur={15} strength={900}>
-        <Background>
-          <div className="bg-gradient-to-t from-slate-950 to-slate-300 w-[2000px] h-[4000px]"></div>
-        </Background>
-        <div className="container w-full mx-auto flex flex-wrap gap-3 px-3 justify-center">
-          <PopularMovieList />
-        </div>
-      </Parallax>
+      <div className="container bg-gradient-to-t from-gray-800 via-gray-500 to-gray-300 w-full mx-auto flex flex-wrap gap-3 px-3 justify-center">
+        <PopularMovieList />
+      </div>
     </div>
   );
 };
